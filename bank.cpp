@@ -53,9 +53,9 @@ int main()
     BankDeposit bd1, bd2;
     cout << "add your amount : ";
     cin >> a;
-    cout << "Time Period : ";
+    cout << "Time Period in year : ";
     cin >> y;
-    cout << "Put Interestrate : ";
+    cout << "Put Interestrate in % : ";
     cin >> r;
 
     bd1 = BankDeposit(a, y, r);
@@ -63,9 +63,9 @@ int main()
     cout << endl;
     cout << "add your amount : ";
     cin >> a;
-    cout << "Time Period : ";
+    cout << "Time Period in year : ";
     cin >> y;
-    cout << "Put Interestrate : ";
+    cout << "Put Interestrate in number : ";
     cin >> R;
     bd2 = BankDeposit(a, y, R);
     bd2.show();
