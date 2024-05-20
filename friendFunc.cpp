@@ -21,7 +21,7 @@ public:
     // Friend Function can access Private member of your class
 };
 
-// Friend function define outof the class
+// Friend function define out of the class
 // Friend function don't need any type of objects for Invoke the function
 Complex sumComplex(Complex o1, Complex o2)
 {
