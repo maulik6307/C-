@@ -7,7 +7,7 @@ class shop
 private:
     int ItemId[100];
     int ItemPrice[100];
-    static int counter; //---> static data mamber
+    static int counter; //---> static data member
 
 public:
     void setprice();
