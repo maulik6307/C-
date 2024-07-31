@@ -29,7 +29,7 @@ public:
     }
 };
 
-void Employee::setdata(int a1, int b1, int c1) //=>defination
+void Employee::setdata(int a1, int b1, int c1) //=>definition
 {
     a = a1;
     b = b1;

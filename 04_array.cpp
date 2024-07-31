@@ -15,6 +15,7 @@ int main()
 
     cout << endl;
     // Pointers and array
+    cout << "the value of marks is : " << p << endl; //=>this will give you address of marks array first element
     cout << "the value of marks[0] is : " << *p << endl;
     cout << "the value of marks[1] is : " << *(p + 1) << endl;
     cout << "the value of marks[2] is : " << *(p + 2) << endl;
