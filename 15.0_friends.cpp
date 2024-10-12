@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+// forward declaration of class Y
 class Y;
 
 class X

@@ -14,7 +14,7 @@ public:
     }
     void getdata()
     {
-        cout << "the value of id is : " << Id << endl;
+        cout << "item id is : " << Id << endl;
         cout << "the value of price is : " << price << endl;
     }
 };

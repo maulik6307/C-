@@ -28,7 +28,11 @@ int main()
     for (int i = 0; i < 4; i++)
     {
         fb[i].setdata();
-        fb[i].getdata();
+        // fb[i].getdata();
+    }
+    for (int j = 0; j < 4; j++)
+    {
+        fb[j].getdata();
     }
 
     return 0;

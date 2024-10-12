@@ -11,8 +11,7 @@ int main(int argc, char const *argv[])
     cout << endl;
 
     // While loops
-    cout
-        << "While Loop Output" << endl;
+    cout<< "While Loop Output" << endl;
     int j = 2;
     while (j < 20)
     {

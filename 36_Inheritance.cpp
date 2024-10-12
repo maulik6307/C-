@@ -11,7 +11,7 @@ public:
         Id = Inpid;
         salary = 212121;
     }
-    Employee(){};
+    Employee() {};
 };
 
 // Derived Class syntax :
@@ -20,9 +20,9 @@ public:
 //     class members/methods/etc...
 // }
 // NOTE :- Default Visiblity mode is private
-//      :- public visiblity mode:public member of base class become public member of derived class   
-//      :- private visiblity mode:private member of base class become public member of derived class   
-//      :- private member are not inherited   
+//      :- public visiblity mode:public member of base class become public member of derived class
+//      :- protected visiblity mode:protected member of base class become public member of derived class
+//      :- private member are not inherited
 
 // Creating a Programmer class derived from Employee Base class
 class Programmer : public Employee

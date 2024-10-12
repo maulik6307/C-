@@ -6,10 +6,12 @@ using namespace std;
 int sum(int a, int b); //--->acceptable
 // int sum(int a,b); //--->not acceptable
 // int sum(int ,int); //--->acceptable
-void g()
+
+void g()  //=>this function is not returning anything only print some text, so we made it void
 {
     cout << "thanks for using this formula";
 }
+
 int main()
 {
 
